@@ -1,0 +1,46 @@
+<DOCTYPE html>
+<html>
+<head>
+<script>
+
+var number1;
+
+var number2;
+
+var sign;
+
+var answer1;
+
+var answer2;
+
+var answer3;
+
+number1 = prompt("Give me a number")
+
+number2 = prompt("Give me a second number")
+
+sign = prompt("Multiply is mult, Divide is div, and Modulo is mod, anyting unknown will be invalid, so what should I do?")
+
+if(sign === "mult")
+{
+answer1=(number1*number2);
+alert(answer1);
+}
+else if(sign === "div")
+{
+answer2=(number1/number2)
+alert(answer2)
+}
+else if(sign === "mod")
+{
+answer3=(number1%number2)
+alert(answer3);
+}
+else{
+alert("invalid operation");
+}
+
+</script>
+</head>
+</html>
+
